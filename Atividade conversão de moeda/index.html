@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cotação</title>
+</head>
+<body>
+    <div id="mensagem"></div>
+    <h1>Cotação de moeda</h1>
+    <label>Digite o valor:</label>
+    <input type="text" placeholder="Digite o valor" id="valor">
+
+    <label>Escolha a moeda:</label>
+    <select id="moeda">
+        <option value="USD-BRL">Dólar Americano/Real Brasileiro</option>
+        <option value="BRL-USD">Real Brasileiro/Dólar Americano</option>
+        <option value="BRL-EUR">Real Brasileiro/Euro</option>
+        <option value="EUR-BRL">Euro/Real Brasileiro</option>
+        <option value="BTC-BRL">Bitcoin/Real Brasileiro</option>
+        <option value="BRL-BTC">Real Brasileiro/Bitcoin</option>
+    </select>
+    <h4 id="resultado"></h4>
+    <button id="moeda" onclick="converter()">Converter</button>
+    <script src="script.js"></script>
+</body>
+
+</html>

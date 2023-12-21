@@ -1,0 +1,58 @@
+body{
+    text-align: center;
+    margin-top: 15%;
+    background-color: #ccc;
+}
+#mensagem {
+    display: none;
+    position: absolute;
+    top: 0; /* Ajuste conforme necessário */
+    right: 0;
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: bold;
+    border: 3px solid black;
+  }
+
+label {
+    display: block; /* Faz com que cada rótulo apareça em uma nova linha */
+    margin-bottom: 5px; /* Adiciona espaço abaixo de cada rótulo */
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input {
+    width: 300px;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+select {
+    width: 300px;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+button {
+    width: 100px;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #1E90FF;
+    border: 1px solid black;
+    font-weight: bold;
+}
